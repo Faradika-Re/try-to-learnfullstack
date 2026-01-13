@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+section.suggest-page {
+    width: 85%;
+    height: 80%;
+    padding: 40px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    margin-top: -5%;
+}
+
+section.suggest-page .text {
+    text-align: left;
+    max-width: 50%;
+    margin-bottom: 10%;
+    flex: 1;
+}
+
+
+section.suggest-page h2 {
+    font-family: 'Lora', serif;
+    font-size: 2.5rem;
+    color: #B17457;
+}
+
+section.suggest-page h3 {
+    font-family: 'lora', serif;
+    font-size: 1.5rem;
+    color: #333333;
+}
+
+section.suggest-page span.relax-link a.coffee-shop-audio {
+    display: flex;
+    margin: 20px 0 0 0;
+    display: block;
+    text-decoration: none;
+    color: #B17457;
+}
+
+section.suggest-page .nav-option {
+    list-style: none;
+    position: absolute;
+    bottom: 70px;
+}
+
+section.suggest-page .nav-option ul{
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+    list-style: none;
+}
+
+section.suggest-page::before {
+    content: "";
+    position: absolute;
+    transform: translateY(-50%);
+    right: 0;
+    top: 30%;
+    width: 25%;
+    height: 78%;
+    background-color: #B17457;
+    border-radius: 30px 0 0 30px;
+    margin-top: 180px;
+}
+
+section.suggest-page img.coffee-splash {
+    position: absolute;
+    top: 5px;
+    bottom: 20px;
+    right: 2%;
+    object-fit: contain;
+    max-width: 50%;
+}
