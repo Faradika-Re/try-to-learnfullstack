@@ -1,0 +1,64 @@
+section.sliding-page {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    width: 85%;
+    padding: 20px;
+    margin: 100px 0 0 0;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+section.sliding-page span.title {
+    color: #B17457;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'lora', serif;
+    margin: 0 0 40px 20px;
+}
+
+.carousel {
+    margin: 20px 20px;
+    width: 100%;
+    border: #B17457 2px solid;
+    display: flex;
+    overflow-x: auto;
+    overflow: hidden ;
+    gap: 1em;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.carousel .group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    animation: scroll 20s linear infinite;
+    flex-shrink: 0;
+}
+
+.carousel .group .card {
+    height: 5em;
+    padding: 1em;
+    align-content: center;
+    flex-shrink: 0;
+}
+
+.carousel .group .card img {
+    width: 200px;
+    background-color: #B17457;
+    height: auto;
+    border-radius: 10px;
+}
