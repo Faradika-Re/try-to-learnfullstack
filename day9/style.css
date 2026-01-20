@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Figtree:ital,wght@0,300..900;1,300..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Figtree', sans-serif;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    min-height: 60px;
+    align-items: center;
+    border-bottom: #ffffff56 1px solid;
+}
+header span {
+    font-weight: 600;
+    font-size: 2rem;
+    margin: 0 0 0 24px;
+}
+
+section.main {
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section.main h1 {
+    font-size: 4em;
+    padding: 5px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+section.main h1 span {
+    color: #3D4BF4;
+}
+
+section.main .description {
+    padding: 0 5px 5px 5px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.nav-website {
+    margin: 18px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nav-website a {
+    text-decoration: none;
+    font-weight: 600;
+    background-color: #3D4BF4;
+    padding: 10px;
+    min-width: 180px;
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.nav-website a:hover {
+    color: black;
+    background-color: white;
+    transform: scale(1.1);
+}
+
+.nav-sosmed {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
+
+.nav-sosmed a {
+    background-color: #3D4BF4;
+    border-radius: 4px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    min-width: 120px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+footer {
+    min-height: 10vh;
+    border-top: #ffffff56 1px solid;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .text {
+    padding: 5px;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+footer .text a {
+    text-decoration: none;
+}
