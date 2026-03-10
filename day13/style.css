@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgb(11, 11, 11);
+    color: white;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.468);
+}
+
+main {
+    width: 100%;
+    min-height: 78vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+main .card-info {
+    min-height: 20%;
+    min-width: 20%;
+}
+
+main .main-title h1{
+    font-size: 4rem;
+    padding: 10px 10px 2px 10px;
+}
+
+main .main-title h1 span {
+    color: rgb(52, 52, 239);
+}
+
+main section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 5px;
+}
+
+main section .card {
+    min-width: 300px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+
+main section .card a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 12px;
+    background-color: rgb(52, 52, 239);
+    padding: 8px;
+    gap: 5px;
+}
+
+main section .card a:hover {
+    background-color: rgb(52, 52, 239, 0.8);
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    min-height: 5vh;
+    gap: 20px;
+    padding: 10px 10px 0px 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.468);
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: rgb(52, 52, 239);
+}
